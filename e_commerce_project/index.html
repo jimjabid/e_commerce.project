@@ -140,8 +140,40 @@
             <a href="#" class="btn btn-lg btn-primary"> Comprar Ahora </a>
           </div>
         </div>
+        <a
+          href="#miCarrusel"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+          ><span class="sr-only">previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span
+        ></a>
+        <a
+          href="#miCarrusel"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+          ><span class="sr-only">next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span
+        ></a>
       </div>
     </div>
+    <div class="container-fluid">
+      <h1 style="text-align: center"></h1>
+      <div class="row" id="items"></div>
+    </div>
+    <template id="template-card">
+      <div class="col-12 mb-2 col-md-4">
+        <div class="card">
+          <img src="" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5>Titulo</h5>
+            <p>precio</p>
+            <button class="btn btn-dark">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </template>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -160,5 +192,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="/e_commerce_project/scripts.js"></script>
   </body>
 </html>
