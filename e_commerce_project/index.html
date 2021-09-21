@@ -21,23 +21,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./styles.css" />
 
     <title>La Tiendita</title>
-    <style>
-      .carousel-item {
-        height: 40rem;
-        background: #777;
-        color: white;
-        position: relative;
-      }
-      .container {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding-bottom: 42px;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -83,10 +69,10 @@
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Hombre </a>
+                <a class="nav-link" href="./mujer.html">Hombre </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mujer</a>
+                <a class="nav-link" href="./mujer.html">Mujer</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Junior</a>
@@ -162,13 +148,14 @@
       <h1 style="text-align: center"></h1>
       <div class="row" id="items"></div>
     </div>
+
     <template id="template-card">
-      <div class="col-12 mb-2 col-md-4">
+      <div class="col-12 mb-2 col-md-6 col-lg-4">
         <div class="card">
           <img src="" alt="" class="card-img-top" />
           <div class="card-body">
             <h5>Titulo</h5>
-            <p>precio</p>
+            <p>$precio</p>
             <button class="btn btn-dark">Comprar</button>
           </div>
         </div>

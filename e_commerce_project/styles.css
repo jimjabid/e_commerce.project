@@ -1,5 +1,5 @@
-/* .carousel-item {
-  height: 40rem;
+.carousel-item {
+  height: 50rem;
   background: #777;
   color: white;
   position: relative;
@@ -10,4 +10,4 @@
   left: 0;
   right: 0;
   padding-bottom: 42px;
-} */
+}
