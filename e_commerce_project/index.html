@@ -69,7 +69,7 @@
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link" href="./mujer.html">Hombre </a>
+                <a class="nav-link" href="./hombre.html">Hombre </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./mujer.html">Mujer</a>
@@ -86,14 +86,26 @@
       </nav>
     </header>
 
-    <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+    <div
+      id="miCarrusel"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
       <ol class="carousel-indicators">
         <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
         <li data-target="#miCarrusel" data-slide-to="1"></li>
         <li data-target="#miCarrusel" data-slide-to="2"></li>
+        <li data-target="#miCarrusel" data-slide-to="3"></li>
+        <li data-target="#miCarrusel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="5000">
+          <div
+            class="capa-imagen-carrusel"
+            style="
+              background-image: url(./imagenes/carrusel/max-letek-SvfBv5FLrHg-unsplash.jpg);
+            "
+          ></div>
           <div class="container">
             <h1>Bienvenido a la TIENDA</h1>
             <p>
@@ -104,26 +116,68 @@
             <a href="#" class="btn btn-lg btn-primary"> Ver mas </a>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2500" >
+          <div
+            class="capa-imagen-carrusel"
+            style="
+              background-image: url(./imagenes/carrusel/quaritsch-photography-1o-kpDcVALw-unsplash.jpg);
+            "
+          ></div>
           <div class="container">
-            <h1>Bienvenido a la TIENDA</h1>
+            <h1>Coleccion Femenina</h1>
             <p>
-              Aqui podrás encontrar la mejor variedad de productos deportivos
-              para todos y todas
+              Para la mujer empoderada que disfruta hacer deporte o simplemente sentirse comoda
             </p>
 
-            <a href="#" class="btn btn-lg btn-primary"> Comprar Ahora </a>
+            <a href="#" class="btn btn-lg btn-primary"> ver mas </a>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2500">
+          <div
+            class="capa-imagen-carrusel"
+            style="
+              background-image: url(./imagenes/carrusel/alex-_AOL4_fDQ3M-unsplash.jpg);
+            "
+          ></div>
           <div class="container">
-            <h1>Bienvenido a la TIENDA</h1>
+            <h1>Coleccion Masculina</h1>
             <p>
-              Aqui podrás encontrar la mejor variedad de productos deportivos
-              para todos y todas
+              Para el hombre que aprecia la comodidad, estilo y el deporte
             </p>
 
-            <a href="#" class="btn btn-lg btn-primary"> Comprar Ahora </a>
+            <a href="#" class="btn btn-lg btn-primary"> Ver mas </a>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2500">
+          <div
+            class="capa-imagen-carrusel"
+            style="
+              background-image: url(./imagenes/carrusel/adria-crehuet-cano-LIhB1_mAGhY-unsplash.jpg);
+            "
+          ></div>
+          <div class="container">
+            <h1>Coleccion Junior</h1>
+            <p>
+              Para los mas pequeños y pequeñas que quieren seguir jugando
+            </p>
+
+            <a href="#" class="btn btn-lg btn-primary"> ver mas </a>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="2500">
+          <div
+            class="capa-imagen-carrusel"
+            style="
+              background-image: url(./imagenes/carrusel/filip-baotic-HjZ0qARrQDY-unsplash.jpg);
+            "
+          ></div>
+          <div class="container">
+            <h1>Accesorios</h1>
+            <p>
+              Entra y revisa que no te haga falta el ultimo accsesorio
+            </p>
+
+            <a href="#" class="btn btn-lg btn-primary"> Ver mas </a>
           </div>
         </div>
         <a
@@ -156,7 +210,7 @@
           <div class="card-body">
             <h5>Titulo</h5>
             <p>$precio</p>
-            <button class="btn btn-dark">Comprar</button>
+            <button class="btn btn-dark">Ver Mas</button>
           </div>
         </div>
       </div>

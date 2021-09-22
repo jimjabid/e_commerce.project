@@ -27,3 +27,5 @@ const pintarCards = data  => {
     })
     items.appendChild(fragment)
 }
+
+
