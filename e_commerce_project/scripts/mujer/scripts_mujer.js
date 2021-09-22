@@ -8,15 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const fetchData = async () => {
   try {
-    const res = await fetch("./productos.json");
+    const res = await fetch("/e_commerce_project/Productos/Mujer/mujer.json");
     const data = await res.json();
-    pintarCards(data);
+    pintarCardsMujer(data);
   } catch (error) {
     console.log(error);
   }
 };
 
-const pintarCards = data  => {
+const pintarCardsMujer = data  => {
     console.log(data)
     data.forEach( producto => {
         templateCard.querySelector('h5').textContent = producto.title
@@ -27,5 +27,3 @@ const pintarCards = data  => {
     })
     items.appendChild(fragment)
 }
-
-
